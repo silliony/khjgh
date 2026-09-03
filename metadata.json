@@ -1,0 +1,8 @@
+{
+  "name": "Remix Controle Financeiro Inteligente",
+  "description": "Controle de gastos otimizado com categorização inteligente, reserva orçamentária por categoria e relatórios visuais de comportamento financeiro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

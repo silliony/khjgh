@@ -1,0 +1,12 @@
+{
+  "projectId": "seu-projeto-id",
+  "appId": "1:000000000000:web:0000000000000000000000",
+  "apiKey": "SUA_API_KEY_AQUI",
+  "authDomain": "seu-projeto-id.firebaseapp.com",
+  "firestoreDatabaseId": "(default)",
+  "storageBucket": "seu-projeto-id.firebasestorage.app",
+  "messagingSenderId": "000000000000",
+  "measurementId": "",
+  "oAuthClientId": "",
+  "recaptchaSiteKey": ""
+}

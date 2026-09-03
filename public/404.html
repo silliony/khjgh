@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Controle Financeiro Inteligente</title>
+    <script>
+      // Single Page Apps redirect for GitHub Pages
+      // Keeps query and hash intact when reloading deep URLs on static hosts
+      var segmentCount = 0;
+      var location = window.location;
+      location.replace(
+        location.protocol +
+          '//' +
+          location.hostname +
+          (location.port ? ':' + location.port : '') +
+          location.pathname
+            .split('/')
+            .slice(0, 1 + segmentCount)
+            .join('/') +
+          '/?p=/' +
+          location.pathname
+            .slice(1)
+            .split('/')
+            .slice(segmentCount)
+            .join('/')
+            .replace(/&/g, '~and~') +
+          (location.search ? '&q=' + location.search.slice(1).replace(/&/g, '~and~') : '') +
+          location.hash
+      );
+    </script>
+  </head>
+  <body>
+    <p style="font-family: sans-serif; text-align: center; margin-top: 20vh; color: #64748b;">
+      Carregando Controle Financeiro Inteligente...
+    </p>
+  </body>
+</html>
